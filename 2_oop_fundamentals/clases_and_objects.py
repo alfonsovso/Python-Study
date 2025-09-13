@@ -19,7 +19,7 @@ class Animal:
         self.texture = texture
         print(f"🐾 Born {name}, a {sex} of {age} year(s)")
 
-    def breath(self):
+    def breathe(self):
         print(f"{self.name} is breathing...💨")
 
     def sleep(self):
@@ -44,7 +44,7 @@ print(f"Oscar: {oscar.name}, {oscar.sex}, {oscar.age} years old, {oscar.weight} 
 print(f"Luna: {luna.name}, {luna.sex}, {luna.age} years old, {luna.weight} kg, {luna.color}, {luna.texture}")
 
 # Call methods on the objects
-oscar.breath()
+oscar.breathe()
 oscar.eat()
 luna.move()
 luna.make_sound()
@@ -126,7 +126,7 @@ tweety = Bird("Tweety", "female", 2, 1, "yellow", "feathery", True)
 
 # Clases inerited from Animal can use its methods
 garfield.eat()
-fido.breath()
+fido.breathe()
 tweety.sleep()
 
 # Each subclass can use its own methods
